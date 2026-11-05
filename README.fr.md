@@ -51,3 +51,4 @@ Vous n'avez **pas besoin** d'utiliser le Terminal ni `git clone` pour installer 
 ## Licence
 
 Distribué sous licence **MIT**. Consultez [`LICENSE`](./LICENSE).
+

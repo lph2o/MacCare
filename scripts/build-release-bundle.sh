@@ -60,14 +60,8 @@ ZIP_ARCHIVE="${DIST_DIR}/MacCare-Universal.zip"
 rm -f "${ZIP_ARCHIVE}"
 ditto -c -k --sequesterRsrc --keepParent "${APP_BUNDLE}" "${ZIP_ARCHIVE}"
 
-echo "==> [7/7] Création de l'image disque MacCare-Universal.dmg (Glisser-déposer vers Applications)..."
-DMG_STAGING="${BUILD_SCRATCH}/dmg-staging"
-DMG_PATH="${DIST_DIR}/MacCare-Universal.dmg"
-rm -rf "${DMG_STAGING}" "${DMG_PATH}"
-mkdir -p "${DMG_STAGING}"
-cp -R "${APP_BUNDLE}" "${DMG_STAGING}/MacCare.app"
-ln -s /Applications "${DMG_STAGING}/Applications"
-hdiutil create -volname "MacCare" -srcfolder "${DMG_STAGING}" -ov -format UDZO "${DMG_PATH}" || true
+echo "==> [7/7] Création de l'image disque MacCare-Universal.dmg (Stylée avec fond HD et glisser-déposer)..."
+"${PROJECT_ROOT}/scripts/build-styled-dmg.sh"
 
 echo "==> Bundle Release universel prêt : ${APP_BUNDLE}"
 ls -lh "${DIST_DIR}"

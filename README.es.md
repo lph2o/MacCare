@@ -49,3 +49,4 @@ No necesitas usar la Terminal ni `git clone` para instalar **MacCare**:
 ## Licencia
 
 Distribuido bajo la licencia **MIT**. Consulta [`LICENSE`](./LICENSE).
+

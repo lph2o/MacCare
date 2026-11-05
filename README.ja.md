@@ -33,3 +33,4 @@
 ## ライセンス
 
 **MIT License** の下で公開されています（詳細は [`LICENSE`](./LICENSE) を参照）。
+
