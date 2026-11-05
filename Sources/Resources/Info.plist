@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>fr</string>
+        <string>es</string>
+        <string>de</string>
+        <string>ja</string>
+        <string>zh-Hans</string>
+    </array>
+    <key>CFBundleDisplayName</key>
+    <string>MacCare</string>
+    <key>CFBundleExecutable</key>
+    <string>MacCare</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleIconName</key>
+    <string>AppIcon</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.maccare.app</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>MacCare</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>10</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2026 MacCare. Tous droits réservés.</string>
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>MacCare analyse la taille des fichiers de votre Bureau uniquement à votre demande afin d'identifier les éléments volumineux ou en double.</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>MacCare analyse votre dossier Documents uniquement à votre demande pour cartographier l'espace disque et détecter les doublons.</string>
+    <key>NSDownloadsFolderUsageDescription</key>
+    <string>MacCare inspecte votre dossier Téléchargements afin d'identifier les installeurs obsolètes, archives et fichiers volumineux.</string>
+</dict>
+</plist>
